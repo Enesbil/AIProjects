@@ -7,14 +7,13 @@ A question-answering application that uses MongoDB Atlas Vector Search and OpenA
 - **Vector Search**: Find the most similar documents to your query
 - **RAG (Retrieval-Augmented Generation)**: Generate AI-powered answers using your documents
 - **MongoDB Atlas Integration**: Store and search document embeddings
-- **Terminal Interface**: Simple, reliable command-line interface
 
 ## Files
 
 - `extract_information.py` - Main Gradio web interface (may have browser issues)
 - `load_data.py` - Load documents into MongoDB Atlas
 - `key_param.py` - Configuration file with API keys
-- `sample_files/` - Directory containing your documents
+- `sample_files/` - Directory containing your documents. Ive left some sample files here for testing.
 
 ## Quick Start
 
@@ -51,11 +50,7 @@ A question-answering application that uses MongoDB Atlas Vector Search and OpenA
 
 4. **Run the App**
    ```bash
-   # Terminal version (recommended)
-   python terminal_app.py
-   
-   # Web interface (may have browser issues)
-   python extract_information.py
+      python extract_information.py
    ```
 
 ## Usage
@@ -69,16 +64,15 @@ A question-answering application that uses MongoDB Atlas Vector Search and OpenA
 - Python 3.8+
 - MongoDB Atlas account
 - OpenAI API key
-- Required packages: `langchain-openai`, `langchain-mongodb`, `pymongo`, `openai`
+- Packages
 
 ## Installation
 
 ```bash
-pip install langchain-openai langchain-mongodb pymongo openai
+pip install requirements.txt
 ```
 
 ## Troubleshooting
 
-- **White screen in browser**: Use the terminal version instead
 - **Import errors**: Make sure all packages are installed
 - **Connection issues**: Check your MongoDB URI and OpenAI API key 
