@@ -2,6 +2,7 @@
 
 A question-answering application that uses MongoDB Atlas Vector Search and OpenAI to provide intelligent responses based on your documents.
 
+
 ## Features
 
 - **Vector Search**: Find the most similar documents to your query
